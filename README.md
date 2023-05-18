@@ -30,3 +30,44 @@ To run this application locally, you need to have the following software install
    ```bash
    git clone https://github.com/ui-vivek/Ascend-capital
    
+2. Navigate to the project directory:
+   ```bash
+   cd task-board
+   
+3. Install the dependencies:
+    ```bash
+   npm install
+  
+Technology Stack
+The technology stack used in this project includes:
+
+Front-end:
+
+React (JavaScript library for building user interfaces)
+HTML5 (for structuring the web pages)
+CSS3 (for styling the web pages)
+JavaScript (for interactivity and logic implementation)
+Back-end:
+
+Node.js (JavaScript runtime)
+Express.js (web application framework)
+mongoDB
+Sequelize (Node.js ORM for database operations)
+Folder Structure
+The project follows a standard folder structure:
+
+config: Contains configuration files for the database and server.
+migrations: Contains database migration files.
+models: Contains Sequelize models for the database tables.
+routes: Contains Express.js routes for handling API requests.
+public: Contains the static assets (HTML, CSS, JavaScript) for the client-side.
+views: Contains the server-side views (if applicable).
+controllers: Contains the business logic for handling requests.
+utils: Contains utility functions or modules.
+app.js: Main entry point for the server-side application.
+package.json: Contains project metadata and dependencies.
+README.md: Documentation file (you're currently reading it).
+License
+This project is licensed under the MIT License.
+
+Feel free to modify and adapt it to your needs.
