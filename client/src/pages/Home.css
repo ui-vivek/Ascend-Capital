@@ -1,0 +1,36 @@
+.app {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .list {
+    border: 1px solid black;
+    padding: 10px;
+    width: 150px;
+  }
+  
+  .list-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #f0f0f0;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .add-item-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
